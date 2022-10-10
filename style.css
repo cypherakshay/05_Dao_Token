@@ -12,10 +12,10 @@
 /*---------- Nav-Bar ---------- */
 
 .navbar {
-  background-color: rgba(8, 8, 8, 0.969);
   height: 10vh;
   max-width: 100%;
   align-items: center;
+  background-color: rgba(8, 8, 8, 0.969);
 }
 .navbar-inner {
   display: flex;
@@ -25,17 +25,16 @@
   align-items: center;
   padding: 12px;
 }
-
+.line {
+  width: 3px;
+  height: 65px;
+  background-color: #ffffff;
+}
 .list {
   display: flex;
   list-style-type: none;
   gap: 50px;
-  color: white;
-}
-.line {
-  width: 3px;
-  height: 65px;
-  background-color: white;
+  color: #ffffff;
 }
 .flexgrow3 {
   display: flex;
@@ -52,16 +51,18 @@
 }
 
 /*--------- Navbar-Button ----------*/
+
 .button-small {
   padding: 8px 16px;
   border-radius: 8px;
   border: none;
   background-color: #ba0cc5;
-  color: white;
+  color: #ffffff;
   font-size: 18px;
 }
 
 /*---------- Hero-Section ----------*/
+
 .hero {
   background-image: url(./assets/bg.png);
   height: 90vh;
@@ -79,21 +80,27 @@
   display: inline-block;
   max-width: 60%;
   text-align: center;
-  color: white;
+  color: #ffffff;
   line-height: 1;
 }
 .hero-description {
   font-size: 30px;
-  color: white;
+  color: #ffffff;
 }
+
+/*---------- CTA-Button ---------*/
+
 .button-large {
   padding: 12px 24px;
   border-radius: 8px;
   border: none;
   background-color: #ba0cc5;
-  color: white;
+  color: #ffffff;
   font-size: 24px;
 }
+
+/*--------- Hover-Effects ----------*/
+
 .button-large:hover,
 .button-small:hover {
   background: rgb(92, 4, 225);
